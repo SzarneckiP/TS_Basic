@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przelicznik</title>
+</head>
+
+<body>
+    <main>
+        <section class="inputs">
+            <form>
+                <label for="gold">
+                    Złote monety:
+                    <input type="number" class="gold" id="gold" value="0">
+                </label>
+                <label for="silver">
+                    Srebrne monety:
+                    <input type="number" class="silver" id="silver" value="0">
+                </label>
+                <label for="copper">
+                    Miedziane monety:
+                    <input type="number" class="copper" id="copper" value="0">
+                </label>
+                <button id="exchange">Przelicz</button>
+            </form>
+        </section>
+        <section class="result">
+            <p>Ilość miedzianych monet:</p>
+            <p id="result"></p>
+        </section>
+    </main>
+    <script src="../src/Setup/Setup.ts"></script>
+
+</body>
+
+</html>
